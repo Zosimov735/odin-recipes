@@ -5,14 +5,45 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
     <title>Odin Recipes</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Odin Recipes</h1>
+    <div class="header">
+        <h1 class="main-heading">Odin Recipes</h1>
+        <h2 class="sub-heading">Some of the best recipes on the net</h2>
+    
+<div class="navbar">    
 <ul>
     <li><a href="/recipes/crostinis.html">Crostinis</a></li>
     <li><a href="/recipes/italian-chicken.html">Italian Chicken</a></li>
    <li><a href="/recipes/new-york-cheesecake.html">New York Cheesecake</a></li>
 
 </ul>
+</div>
+</div>
+
+<div class="content-flex">
+<div class="submit-new">
+<section>
+    <h1 class="submit-heading">Submit your own recipe!</h1>
+</section>
+<textarea class="enter-recipe"  placeholder="Enter your recipe here!!"></textarea>
+</div>
+
+<div class="suggest-feature">
+    <h1>Suggest a feature here!</h1>
+<form id="type-form">
+    <input type="radio" name="type"> UI</input>
+    <input type="radio" name="type"> Feature Idea</input>
+    <input type="radio" name="type"> Other</input>
+
+
+<span class="idea" id="idea">Enter your idea: <input type="text" placeholder="Idea here"></span>
+</form>
+</div>
+
+
+</div>
+
 </body>
 </html>
