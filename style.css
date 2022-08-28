@@ -1,0 +1,85 @@
+* { 
+    margin: 0;
+    padding: 0; 
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', Arial, sans-serif;
+    border: none /*solid 2px black*/
+ }
+
+
+
+.header{
+    /*border: solid 2px black;*/
+    text-align: center;
+    height: 10rem;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-heading{
+    font-size: 64px;
+    
+}
+
+.subheading{
+    font-size: 32px;
+    
+}
+
+.navbar ul{
+    width: 50%;
+    list-style: none;
+    display: flex;
+    position: relative;
+    left: 25%;
+    justify-content: space-between;
+}
+
+.navbar{
+    display: flex;
+    margin-top: 2%;
+}
+
+h1.submit-heading{
+    margin-bottom: 10px;
+    padding-top: 18px;
+    
+}
+
+.submit-new{
+    width: 50%;
+    height: 25rem;
+    background-color:bisque;
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+.enter-recipe{
+    width: 90%;
+    height: 20rem; 
+}
+
+div.content-flex{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+div.suggest-feature{
+    background-color: aliceblue;
+    text-align: center;
+    width: 50%;
+    height: 25rem;
+}
+
+#type-form{
+    display: inline-block;
+    padding: 5px;
+    
+}
+
+#idea.idea{
+    display: inline-block;
+    width: 100%;
+    text-align: left;
+    margin-top: 2rem;
+}
